@@ -1,0 +1,19 @@
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    line-height: 36px;
+    padding-left: 10px;
+    color: #fff;
+    font-variant: small-caps;
+}
+.header{
+    background-color: orangered;
+}
+ul{
+    text-align: center;
+}
+a:hover{
+    color: yellow;
+}

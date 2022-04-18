@@ -1,0 +1,37 @@
+.menu{
+    padding: 0px;
+    margin: 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+    list-style: none;
+    
+}
+.menu a{
+    background: url('image/bullet.gif');
+    color: orange;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    display: block;
+    border-bottom: 1px dotted  orangered;
+    /* background: url('bullet_hover.gif') no-repeat 10px center;   */   
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20px;
+    
+}
+#container{
+    max-width: 300px; 
+}
+.menu a:hover{
+    background: url('image/hover.gif');
+    color: #fff;
+    background-color: orangered;
+    font-weight: bold;
+    border-bottom: 1px dotted white;
+    /* background: url('bullet.png') no-repeat 10 pixel center */
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20px;
+}

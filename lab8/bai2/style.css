@@ -1,0 +1,47 @@
+.header{
+    background-color: orangered;
+}
+.nav>ul{
+    text-align: center;  
+}
+.nav>ul>li{
+    display: inline-block;
+    line-height: 40px;
+    position: relative;
+}
+.nav>ul>li>a{
+    text-decoration: none;
+    padding: 0 15px;
+    font-variant: small-caps;
+    color: #fff;
+}
+.nav>ul>li:hover>a{
+    color: yellow;
+}
+.subnav{
+    position: absolute;   
+    background-color: #fff;
+    padding: 0px;
+}
+.nav ul ul{
+    display: none;
+}
+.nav>ul>li:hover>ul{
+   display: block;
+}
+.subnav li{
+    list-style: none;
+}
+.subnav a{
+    text-decoration: none;
+    color: orangered;
+    font-variant: small-caps;
+    padding-right: 50px;
+    padding-left: 20px;
+    line-height: 40px;  
+} 
+.subnav a:hover{
+    background-color: orangered;
+    color: #fff;
+    display: block;
+}

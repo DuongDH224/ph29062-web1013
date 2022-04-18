@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    width: 100%;
+}
+.header{
+    background-color: orangered;
+}
+.header li{
+    display: inline-block;
+    list-style-type: none;
+}
+.header a{
+    line-height: 36px;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 15px;
+    padding-left: 5px;
+}
+.subheader1{
+    float: right;
+}
+.content{
+    background-color: black;
+    min-height: 300px;
+}
+.container{
+    position: relative;
+}
+.account{
+    background-color: orangered;
+    /* display: inline-block; */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 30px;
+}
+.account li{
+    display: inline-block;
+}
+.account a{
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-right: 15px;
+    padding-left: 5px;
+    line-height: 36px;
+    color: #fff;
+}
+.subcount{
+    padding-left: 15px;
+}
+

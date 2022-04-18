@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url("image/sinhvien1.jpg");
+    min-height: 200px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.nav{
+    background-color: orangered;
+    
+}
+.nav>ul{
+    text-align: center;
+}
+.nav>ul>li{
+    display: inline-block;
+    position: relative;
+}   
+.nav>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 0 10px;
+    color: #fff;
+    line-height: 40px;
+}
+.ti-angle-down{
+    font-size: 24px;
+}
+.nav>ul>li:hover>a{
+    background-color: #fff;
+    display: block;
+    color: orangered;
+}
+.nav ul ul{
+    display: none;
+}
+.nav>ul>li:hover>ul{
+    display: block;
+}
+.subnav{
+    position: absolute;
+}
+.subnav li{
+    list-style: none;
+}
+.subnav a{
+    text-decoration: none;
+    background-color: orangered;
+    line-height: 36px;
+    color: #fff;
+    display: block;
+    padding-left: 15px;
+    padding-right: 80px;
+    font-variant: small-caps;
+    font-size: large;
+}
+.subnav li:hover a{
+    color: orangered;
+    background-color: #fff;
+}
+.content{
+    background-color:#333;
+    min-height: 400px;
+    width: 80%;
+    float: left;
+}
+.aside{
+    background-color:#fff;
+    width: 20%;
+    min-height: 400px;
+    float: right;
+}
+.aside li{
+    list-style: none;
+}
+.aside a{
+    margin: 5px;
+    background-image: url('image/bullet.gif');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position:left;
+    color:orangered;
+    text-decoration: none;
+    font-size: large;
+    font-variant: small-caps;
+    display: block;
+    font-size: 20px;
+    padding: 10px 5px 10px 30px;
+    border-bottom: 1px dotted orangered;
+}
+.aside li:hover a{
+    background-color: orangered;
+    color: #fff;
+    background-image: url('image/hover.gif');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left;
+}
+.footer{
+    background-color: lightcyan;
+    clear: both;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+    font-variant: small-caps;
+    border-top: 5px double orangered;
+}
+.nav .fa-solid{
+    font-size: 12px;
+}
+

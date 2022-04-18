@@ -1,0 +1,40 @@
+.container{ 
+    width: 25%;
+    float: left;
+}
+.sanpham{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    text-align: center;
+    padding-bottom: 300px;
+    position: relative;
+}
+.gia{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: orange;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.newicon{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.image{
+    position: absolute;
+    top:40px;
+    left: 60px;
+}
+.ten{
+    font-variant: small-caps;
+    color: orangered;
+}
+.icon{
+    position: absolute; 
+    right: 30px; 
+    bottom: 5px;
+    width: 10px;
+}

@@ -1,0 +1,17 @@
+table{
+    border-collapse: collapse;
+}
+thead{
+    background-color: blue;
+    color: #fff;
+}
+td{
+    text-align: center;
+    border: 1px solid lightblue;
+}
+tbody tr:nth-child(2n){
+    background-color: gray;
+}
+tbody tr:nth-child(2n+1){
+    background-color: orangered;
+}
